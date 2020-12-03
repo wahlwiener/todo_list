@@ -1,4 +1,3 @@
-```html
 <template>
   <div class="wrapper">
     <div id="newtodo">
@@ -15,11 +14,10 @@
     <p class="none" v-else>Add a new todo in the input above</p>
   </div>
 </template>
-```
 
 <script>
-export default {
-  name: 'App'
+ export default {
+    name: 'App',
     components: {
     },
     data () {
@@ -121,7 +119,3 @@ p.none {
   cursor: pointer;
 }
 </style>
-```
-
-
-```
